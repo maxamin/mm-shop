@@ -8,7 +8,7 @@
 return [
     'application_id' => env('APP_ID', 'ABCDEF'), // id приложения, должно быть уникально для каждого инстанса приложения на сервере,
     'application_api_key' => env('APP_API_KEY', 'APIKEY'), // ключ для доступа к API магазина
-    'application_onion_url' => env('APP_ONION_URL', 'http://tobechanged
+    'application_onion_url' => env('APP_ONION_URL', 'http://tobechanged'),
     'application_referral_url' => env('APP_REFERRAL_URL', 'http://localhost'), // адрес реферальной системы
     'bitcoind_rpc_host' => env('BITCOIN_RPC_HOST', '127.0.0.1'),
     'bitcoind_rpc_port' => env('BITCOIN_RPC_PORT', 18333),
